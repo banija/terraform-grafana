@@ -5,7 +5,7 @@ module "data-sources-prometheus" {
   enabled       = true
   type          = "prometheus"
   name          = "Prometheus"
-  url           = "http://zabbix-1.united.cloud:9090"
+  url           = "http://url-to-prometheus-server:9090"
   http_method   = "GET"
   query_timeout = "15s"
 }
