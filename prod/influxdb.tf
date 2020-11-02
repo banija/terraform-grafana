@@ -5,7 +5,7 @@ module "data-source-influxdb" {
   enabled                = true
   type                   = "influxdb"
   name                   = "InfluxDB"
-  url                    = "https://influxdb.united.cloud:8086"
+  url                    = "https://your-influxdb-url:8086"
   influxdb_username      = "influx_admin"
   influxdb_password      = ""
   influxdb_database_name = "collectd_db"

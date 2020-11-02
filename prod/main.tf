@@ -3,8 +3,8 @@ terraform {
 }
 
 provider "grafana" {
-url  = "https://grafana-beta.united.cloud"
-auth = "eyJrIjoicnpEbWxZNXlDT0NHdUVGZGNKT2hyNnlGaFRkSVRPeFYiLCJuIjoiYWRtaW4iLCJpZCI6MX0="
+url  = "https://url-your-grafana-server"
+auth = "your-grafana-api-key"
 }
 
 
